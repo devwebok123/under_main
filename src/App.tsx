@@ -6,7 +6,7 @@ import Home from "pages/Home";
 function App() {
   return (
     <Routes>
-      <Route path="/under_main" element={<Home />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }
